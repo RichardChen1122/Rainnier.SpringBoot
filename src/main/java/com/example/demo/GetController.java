@@ -1,5 +1,9 @@
 package com.example.demo;
 
+import com.example.demo.domain.JsonData;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.core.Ordered;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -25,5 +29,15 @@ public class GetController {
         param.put("user",user);
 
         return param;
+    }
+
+    @Autowired
+    private JsonData.ServerSettings serverSettings;
+
+
+    @GetMapping("/v1/api/testproperties")
+    public Object testProperties(){
+
+        return serverSettings;
     }
 }

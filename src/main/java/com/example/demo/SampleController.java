@@ -1,10 +1,13 @@
 package com.example.demo;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,6 +25,14 @@ public class SampleController {
         map.put("name","xdclass");
 
         return map;
+
+    }
+
+    @GetMapping("/testjson")
+    public Object tesJosn(){
+        User user = new User(11,"test","1001010", new Date());
+        System.out.println("tes");
+        return user;
 
     }
 }
