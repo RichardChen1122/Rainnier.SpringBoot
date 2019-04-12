@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import org.springframework.stereotype.Controller;
+import com.example.demo.domain.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

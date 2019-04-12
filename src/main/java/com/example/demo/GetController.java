@@ -1,9 +1,8 @@
 package com.example.demo;
 
 import com.example.demo.domain.JsonData;
+import com.example.demo.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
-import org.springframework.core.Ordered;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;

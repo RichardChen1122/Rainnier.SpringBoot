@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebFilter(urlPatterns = "/v1/api/*", filterName = "loginFilter")
+//@WebFilter(urlPatterns = "/v1/api/*", filterName = "loginFilter")
 public class LoginFilter  implements Filter {
 
     /**
