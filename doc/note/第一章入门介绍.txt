@@ -1,0 +1,59 @@
+======================1、零基础快速入门SpringBoot2.0 5节课 ===========================
+
+加入小D课堂技术交流答疑群：Q群：699347262
+
+1、SpringBoot2.x课程全套介绍和高手系列知识点
+	简介：介绍SpringBoot2.x课程大纲章节
+		java基础，jdk环境，maven基础
+
+
+2、SpringBoot2.x依赖环境和版本新特性说明
+简介：讲解新版本依赖环境和springboot2新特性概述
+
+		1、依赖版本jdk8以上, Springboot2.x用JDK8, 因为底层是 Spring framework5, 
+		2、安装maven最新版本，maven3.2以上版本，下载地址 ：https://maven.apache.org/download.cgi
+		3、Eclipse或者IDE
+		4、新特性
+		5、翻译工具：https://translate.google.cn/
+		6、springbootGitHub地址：https://github.com/spring-projects/spring-boot
+		7、springboot官方文档：https://spring.io/guides/gs/spring-boot/
+
+
+		
+
+3、快速创建SpringBoot2.x应用之手工创建web应用
+简介：使用Maven手工创建SpringBoot2.x应用
+
+	手工创建:https://projects.spring.io/spring-boot/#quick-start
+		官方推荐包命名接口，不要使用默认 defaultPackage
+		官方文档: https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/reference/htmlsingle/#using-boot-using-the-default-package
+		例子：
+			com
+			 +- example
+			     +- myapplication
+			         +- Application.java
+			         |
+			         +- customer
+			         |   +- Customer.java
+			         |   +- CustomerController.java
+			         |   +- CustomerService.java
+			         |   +- CustomerRepository.java
+			         |
+			         +- order
+			             +- Order.java
+			             +- OrderController.java
+			             +- OrderService.java
+			             +- OrderRepository.java
+	
+
+
+4、快速创建SpringBoot2.x应用之工具类自动创建web应用
+简介：使用构建工具自动生成项目基本架构
+	1、工具自动创建:http://start.spring.io/
+
+
+
+5、SpringBoot2.x的依赖默认Maven版本
+	简介：讲解SpringBoot2.x的默认Maven依赖版本
+	1、官网地址
+	https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/reference/htmlsingle/#appendix-dependency-versions
