@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.example.demo.Model;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
